@@ -1,0 +1,12 @@
+.webcamCapture{
+    position: relative;
+}
+.webcambutton{
+    position:absolute;
+    bottom: 0;
+    left: 50%;
+    font-size: 40px !important;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    color: wheat;
+}

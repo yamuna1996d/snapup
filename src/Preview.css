@@ -1,0 +1,47 @@
+.preview{
+    position: relative;
+}
+.preclose{
+    position: absolute;
+    top: 0;
+    margin: 5px;
+    font-size: 20px !important;
+    cursor: pointer;
+    color: wheat;
+}
+.toolbar{
+    color: wheat;
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.toolbar > .MuiSvgIcon-root{
+    font-size: 20px !important;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    right: -25px;
+    transform: translate(-50%,-50%);
+    background-color: yellowgreen;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+.footer >h2{
+    font-size: 15px;
+    margin-right: 3px;
+}
+.presend{
+    margin-top: 4px;
+    font-size: 13px !important;
+
+}
